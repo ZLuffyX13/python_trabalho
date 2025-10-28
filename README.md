@@ -12,7 +12,7 @@ Tulio Andrade Franciscon - 2025008503
 ## Como Executar
 
 ```bash
-python terminal.py
+python main.py
 ```
 
 O sistema iniciará um prompt interativo onde você pode digitar comandos.
@@ -23,7 +23,7 @@ O sistema iniciará um prompt interativo onde você pode digitar comandos.
 
 ```
 /projeto
-  ├─ terminal.py      # Programa principal (loop de comandos)
+  ├─ main.py          # Programa principal (loop de comandos)
   ├─ fila.py          # Gerenciamento de filas (PADRAO e PRIORIDADE)
   ├─ pilha.py         # Operações genéricas de pilha + navegação + undo/redo
   ├─ roteiro.py       # Navegação de diretórios (IR/VOLTAR/AVANCAR/ONDE)
@@ -245,7 +245,7 @@ OK
   - `fila.py`: Verifica categorias válidas
   - `pilha.py`: Retorna `None` se pilha vazia (evita exceções)
   - `ingressos.py`: Valida nome e categoria ao criar ingresso
-  - `terminal.py`: Try-except global captura e exibe erros ao usuário
+  - `main.py`: Try-except global captura e exibe erros ao usuário
 - Mensagens claras: `"Erro: Ingresso inexistente"`, `"Erro: Categoria invalida"`
 
 ---
